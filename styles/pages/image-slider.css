@@ -29,10 +29,10 @@
   height: 100%;
   -webkit-appearance: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .main-container #slider::-webkit-slider-thumb {
-  cursor: pointer;
   -webkit-appearance: none;
   height: 15px;
   width: 15px;

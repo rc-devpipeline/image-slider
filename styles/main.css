@@ -1,9 +1,17 @@
+:root {
+  --main-container-bg: #000;
+}
+
+:root {
+  --main-border-color: black;
+}
+
 body {
   margin: 0;
 }
 
 .main-container {
-  border: 1px solid black;
+  border: 1px solid var(--main-border-color);
   width: 900px;
   height: 900px;
   position: relative;
@@ -33,10 +41,10 @@ body {
   height: 100%;
   -webkit-appearance: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .main-container #slider::-webkit-slider-thumb {
-  cursor: pointer;
   -webkit-appearance: none;
   height: 15px;
   width: 15px;

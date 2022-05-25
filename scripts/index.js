@@ -1,8 +1,8 @@
 const slider = document.getElementById("slider");
+const img = document.querySelector(".foreground-img");
 
 slider.addEventListener("input", (e) => {
 	const sliderValue = e.target.value;
-	const img = document.querySelector(".foreground-img");
 
 	img.style.width = `${sliderValue}%`;
 });
