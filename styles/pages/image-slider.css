@@ -20,6 +20,7 @@
 
 .main-container .foreground-img {
   background-image: url("../images/colors.jpg");
+  border-right: 3px solid white;
 }
 
 .main-container #slider {
